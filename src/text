@@ -1,0 +1,38 @@
+//    <InputComponent
+//       {...register('lastName', {
+//         required: true,
+//         min: 3,
+//         pattern: {
+//           value: /^[A-Za-z]+$/i,
+//           message: 'Last Name cannot be empty',
+//         },
+//       })}
+//       placeholder='last name'
+//       type='text'
+//       errors={errors}
+//     />
+//     <InputComponent
+//       {...register('email', {
+//         required: true,
+//         pattern: {
+//           value: re,
+//           message: 'Looks like this is not an email',
+//         },
+//       })}
+//       placeholder='email address'
+//       type='email'
+//       errors={errors}
+//     />
+//     <InputComponent
+//       {...register('password', {
+//         required: true,
+//         min: 6,
+//         pattern: {
+//           value: /^[A-Za-z]+$/i,
+//           message: 'Password cannot be empty',
+//         },
+//       })}
+//       placeholder='Password'
+//       type='password'
+//       errors={errors}
+//     />
